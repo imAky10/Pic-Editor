@@ -66,9 +66,9 @@ effects.addEventListener("click", e => {
             Caman("#canvas", img, function () {
                 this.clarity().render();
             });
-        } else if (e.target.classList.contains("sincity-add")) {
+        } else if (e.target.classList.contains("hazydays-add")) {
             Caman("#canvas", img, function () {
-                this.sinCity().render();
+                this.hazyDays().render();
             });
         } else if (e.target.classList.contains("crossprocess-add")) {
             Caman("#canvas", img, function () {
@@ -82,9 +82,9 @@ effects.addEventListener("click", e => {
             Caman("#canvas", img, function () {
                 this.nostalgia().render();
             });
-        } else if (e.target.classList.contains("hermajesty-add")) {
+        } else if (e.target.classList.contains("orangepeel-add")) {
             Caman("#canvas", img, function () {
-                this.herMajesty().render();
+                this.orangePeel().render();
             });
         }
     }
